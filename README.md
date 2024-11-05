@@ -30,14 +30,14 @@ Management:
 
 ### Docker life cycles:
 - There are important things:
-  - DockerBuild : Builds docker images fron docker file
-  - DockerRun : Runs containers from docker images.
-  - DockerPush : Push the container image to registry to share iamge
+- DockerBuild : Builds docker images fron docker file
+- DockerRun : Runs containers from docker images.
+- DockerPush : Push the container image to registry to share iamge
 
 ### Docker architecture :
 - Docker uses a client-server architecture.The docker client talks with the docker daemon which helps in building, running and distributing the docker containers. Daemon/sever responds to client instructions and acts accordingly.
-  - Docker Client : Docker commands
-  - Docker Daemon : Docker Engine
+- Docker Client : Docker commands
+- Docker Daemon : Docker Engine
 
 
 ### Docker Instuctions :
