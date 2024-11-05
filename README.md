@@ -12,20 +12,20 @@
 ### Containers vs Virtual machines :
 - containers and Vm's are both techonologies used to isolate applications and their dependencies, but they have some key differences:
 
-   Resource-utilization:
-   - containers share the the host OS kernel, making them lightweight and faster than VM'share
-   - Vm's have full-pledged OS&hypervisior making them some resource intensive.
+Resource-utilization:
+- containers share the the host OS kernel, making them lightweight and faster than VM'share
+- Vm's have full-pledged OS&hypervisior making them some resource intensive.
    
-   Portability:
-   - containers are designed to be portable & can run on any system with a compatible host OS.
-   - VM are less portable as they need compatible hypervisior to run.
+Portability:
+- containers are designed to be portable & can run on any system with a compatible host OS.
+- VM are less portable as they need compatible hypervisior to run.
    
-   Security:
-   - Container are less isolation, as they share host OS.
-   - VM's provide high security as they have own OS.
+Security:
+- Container are less isolation, as they share host OS.
+- VM's provide high security as they have own OS.
    
-   Management:
-   - Managing containers is typically easier than managing VM's as containers are designed to be light-weight and fast moving.
+Management:
+- Managing containers is typically easier than managing VM's as containers are designed to be light-weight and fast moving.
 
 
 ### Docker life cycles:
