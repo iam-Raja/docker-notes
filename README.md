@@ -69,14 +69,14 @@ Management:
 
 ### COPY vs ADD :
 - copy and add are to copy files from workspace to docker iamge. But add have to extra advantages
-  - It can directly download content from internet into iamges
-  - It can directly untart files into images/folders  
+- It can directly download content from internet into iamges
+- It can directly untart files into images/folders  
   
 
 
 ### ENV vs ARG  :
 -  ENV variables can be accessed both at the time of build images and contianer, can be accessed inside container
-  - ARG can be accessed both at the time of build images , arg can't be accessed inside container
+- ARG can be accessed both at the time of build images , arg can't be accessed inside container
     ARG can be used in one exceptional case to keep before FROM instruction, to supply argument to FROM instruction for base OS version.
 
 
@@ -89,8 +89,8 @@ Management:
 
 ### Docker Volumes :
 - Containers are ephemral by default, once we remove the container it will remove the data associated to containers. To save storage we can create volumes(v) and mount(-v). Vloumes are two types; named, unnamed
- - named : Volumes are created and managed by dokcer itself
- - unnamed : Volumes are created and managed by ourself
+- named : Volumes are created and managed by dokcer itself
+- unnamed : Volumes are created and managed by ourself
 
 
 ### Docker multi-stage :
