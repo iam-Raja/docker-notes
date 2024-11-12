@@ -27,6 +27,9 @@ Security:
 Management:
 - Managing containers is typically easier than managing VM's as containers are designed to be light-weight and fast moving.
 
+### The difference between monolithic and microservices architecture :
+-	In a monolithic architecture, the entire application is designed as a tightly coupled unit. For instance, if you want to make any modifications to a particular service, you need to deploy the entire application. Similarly, if you want to scale any of the services, you must scale the entire application because everything is integrated.
+-	In contrast, microservices architecture allows us to break down a monolithic application into multiple individual microservices, each responsible for handling its own application code. With microservices, we can manage the scaling of services more efficiently, as we can upscale or downscale a single service based on its usage. We typically use Docker to containerize these microservices
 
 ### Docker life cycles:
 - There are important things:
